@@ -10,3 +10,8 @@ const reverseString = function(string) {
 
 // Do not edit below this line
 module.exports = reverseString;
+
+
+// Better way to do it
+
+// return string.split('').reverse().join('');
